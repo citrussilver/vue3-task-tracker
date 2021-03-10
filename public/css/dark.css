@@ -1,0 +1,27 @@
+:root {
+    --text: #fff;
+    --background: #1d1d23;
+}
+body, .task, .form-control input[type=text] {
+    background-color: var(--background) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small,
+a,
+.form-control,
+.form-control input[type=text]
+ {
+    color: var(--text) !important;
+}
+
+.task.reminder {
+    border: 1px solid var(--text);
+    border-radius: .3em;
+}
