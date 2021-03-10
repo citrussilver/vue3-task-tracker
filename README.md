@@ -1,4 +1,5 @@
 # vue3-task-tracker
+A fork from Traversy Media's Vue Crash Course (Task Tracker)
 
 ## Project setup
 ```
