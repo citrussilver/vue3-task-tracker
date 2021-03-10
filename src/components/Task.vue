@@ -22,13 +22,15 @@ export default {
   color: red;
 }
 .task {
-  /* background: #f4f4f4; */
   margin: 5px;
   padding: 10px 20px;
+  border-radius: .3em;
   cursor: pointer;
 }
 .task.reminder {
-  border-left: 5px solid green;
+  border: 1px solid steelblue;
+  border-radius: .3em;
+  border-left: 5px solid green !important;
 }
 .task h3 {
   display: flex;

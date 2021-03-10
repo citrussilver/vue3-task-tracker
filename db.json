@@ -4,7 +4,7 @@
       "id": "1",
       "text": "Code at least 1 Web App",
       "day": "March 10 at 10:00 am",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": "2",
@@ -15,14 +15,20 @@
     {
       "text": "Finish expeditions",
       "day": "Today",
-      "reminder": true,
+      "reminder": false,
       "id": "8rWVM-X"
     },
     {
       "text": "Finish at least 5 domains",
       "day": "Today",
-      "reminder": false,
+      "reminder": true,
       "id": "UXeMaMM"
+    },
+    {
+      "text": "Play Genshin",
+      "day": "Tonight",
+      "reminder": false,
+      "id": "BP_PcyQ"
     }
   ]
 }

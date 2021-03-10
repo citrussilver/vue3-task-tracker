@@ -1,9 +1,7 @@
 <template>
   <div class="container">
       <DarkModeButton 
-        :text=" darkMode ? 'Use Light Mode' : 'Use Dark Mode'"
-        :color=" darkMode ? '#fff' : '#1d1d23'"
-        :textColor=" darkMode ? '#1d1d23' : '#fff'"
+        :textColor=" darkMode ? '#fff' : '#1d1d23'"
         @dark-mode-click="darkThemeSwitch"
         :darkMode="darkMode"
       />
@@ -41,6 +39,7 @@ export default {
     darkThemeSwitch() {
       this.themeChanger._darkThemeSwitch();
       this.darkMode = !this.darkMode
+      console.log(this.darkMode);
     },
   },
   created() {

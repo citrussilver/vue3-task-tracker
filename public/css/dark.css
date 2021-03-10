@@ -3,6 +3,7 @@
     --background: #1d1d23;
 }
 body, .task, .form-control input[type=text] {
+    transition: ease-in 0.5s;
     background-color: var(--background) !important;
 }
 
@@ -16,12 +17,13 @@ p,
 small,
 a,
 .form-control,
-.form-control input[type=text]
- {
+.form-control input[type=text] {
+    transition: ease-in 0.5s;
     color: var(--text) !important;
 }
 
 .task.reminder {
-    border: 1px solid var(--text);
+    transition: ease-in 0.5s;
+    border: 1px solid var(--text) !important;
     border-radius: .3em;
 }
