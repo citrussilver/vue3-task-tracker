@@ -1,4 +1,4 @@
-# vue3-task-tracker
+# Vue3 Task Tracker with Dark Mode
 A fork from Traversy Media's Vue Crash Course (Task Tracker)
 
 ## Project setup
